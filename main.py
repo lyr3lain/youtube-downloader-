@@ -44,7 +44,7 @@ def download_youtube_content():
         return
 
     try:
-        print("\n начало загрузи")
+        print("\n начало загрузки")
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([url])
         print("\n выполнено успешно, файл в папке проекта")
